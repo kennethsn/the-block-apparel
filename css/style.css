@@ -1206,3 +1206,20 @@ h1, h2, h3, h4, h5,
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
+
+.site-logo-img{
+  opacity: 0;
+  width: 100px;
+}
+.footer-logo, .sticky-wrapper.is-sticky .site-navbar .site-logo-img{
+  opacity: 1;
+  width: 100px;
+}
+
+.slide-logo {
+  opacity: .9;
+  width: 100%;
+}
+.slide-text-img-container {
+  width: 50%;
+}
